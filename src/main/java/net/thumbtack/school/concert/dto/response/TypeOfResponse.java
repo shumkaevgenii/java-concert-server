@@ -1,0 +1,34 @@
+package net.thumbtack.school.concert.dto.response;
+
+public enum TypeOfResponse {
+    SUCCESSFULLY("OPERATION_COMPLETED_SUCCESSFULLY"),
+    INVALID_DATA("DATA_IS_NOT_VALID"),
+    WRONG_JSON("INVALID_JSON"),
+
+    WRONG_REGISTER("LOGIN_ALREADY_EXISTS"),
+    WRONG_LOGIN("INVALID_LOGIN_OR_PASSWORD"),
+    WRONG_TOKEN("WRONG_TOKEN"),
+
+    WRONG_ADD_SONG("SONG_ALREADY_ADDED"),
+    WRONG_ADD_COMMENT("COMMENT_ALREADY_ADDED"),
+    WRONG_REMOVE_RATING("CANNOT_DELETE_RATING"),
+    WRONG_EDIT_RATING("AUTHOR_CANNOT_CHANGE_RATING"),
+    WRONG_FIND_SONG("SONG_NOT_FOUND"),
+    WRONG_FIND_COMMENT("COMMENT_NOT_FOUND"),
+    WRONG_FIND_PERFORMER("PERFORMER_NOT_FOUND"),
+    WRONG_FIND_AUTHORS("AUTHORS_NOT_FOUND"),
+    WRONG_FIND_COMPOSERS("COMPOSERS_NOT_FOUND"),
+    WRONG_POOL_OF_SONGS("EMPTY_POOL_OF_SONGS"),
+
+    EMPTY_CONCERT("NOT_ADDED_SONGS");
+
+    private final String responseMsg;
+
+    TypeOfResponse(String responseMsg) {
+        this.responseMsg = responseMsg;
+    }
+
+    public String getResponseMsg() {
+        return responseMsg;
+    }
+}
