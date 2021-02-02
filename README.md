@@ -9,4 +9,6 @@ The radio station decided to hold a concert at the request of radio listeners. T
 * Singleton
 * JUnit
 
-**Created by Shumka Evgenii**
+# About
+Created by Shumka Evgenii
+shumkaevgenii@mail.ru
