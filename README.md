@@ -1,11 +1,11 @@
 # Java Concert Server
 
-Радиостанция решила провести концерт по просьбе радиослушателей. В программе концерта должны быть самые популярные песни, по мнению радиослушателей. Для оценки популярности песен и формирования концертной программы создан сервер, на котором слушатели могли бы предлагать определенные песни в концертную программу и давать свои оценки. По результатам этих предложений и оценок будет сформирована программа.
+The radio station decided to hold a concert at the request of radio listeners. The concert program should include the most popular songs, in the opinion of radio listeners. To assess the popularity of songs and form a concert program, a server was created on which listeners could offer certain songs to the concert program and give their assessments. Based on the results of these proposals and evaluations, a program will be formed.
 
 # Installation
-Проект можно установить, загрузив исходный код пакета в виде архива или клонировав этот репозиторий. Все компоненты этого пакета загружают зависимости автоматически.
+The project can be installed by downloading the package source code as an archive or by cloning this repository. All components of this package download dependencies automatically.
 
-Перед использованием рекомендуется протестировать сервер, используя JUnit запустить в корневом каталоге пакета все тесты.
+Before using it is recommended to test the server using JUnit and run all tests in the root directory of the package.
 
 # Content
 
