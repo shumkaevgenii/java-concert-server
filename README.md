@@ -13,6 +13,7 @@ Before using it is recommended to test the server using JUnit and run all tests 
 * Java Collections
 * Singleton
 * JUnit
+* MVC
 
 # About
 Created by Shumka Evgenii
